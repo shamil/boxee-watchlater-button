@@ -1,0 +1,20 @@
+{
+    "name": "Boxee Watch Later button", 
+    "description": "Send Video from the Internet to your TV or iPad with the Boxee Watch Later button.", 
+    "background_page": "loader.html", 
+    "browser_action": {
+        "default_icon":  "boxee-logo.png", 
+        "default_title": "watch later on Boxee"
+    },
+    "icons": {
+        "16":  "boxee-logo.png",
+        "48":  "boxee-logo.png",
+        "128": "boxee-logo.png"
+     },     
+    "permissions": [
+        "tabs", 
+        "http://*/*", 
+        "https://*/*"
+    ], 
+    "version": "0.1"
+}
